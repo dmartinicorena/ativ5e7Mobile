@@ -1,9 +1,12 @@
 package com.example.myapplication;
 
 public class ExchangeRate {
-    private double value;
+    private double exchangeRate;
 
-    public void setValue(double value){
-        this.value = value;
+    public void setExchangeRate(double exchangeRate){
+        this.exchangeRate = exchangeRate;
+    }
+    public double getExchangeRate(){
+        return this.exchangeRate;
     }
 }
